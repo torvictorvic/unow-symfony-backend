@@ -1,0 +1,10 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+# Ruta ficticia para /api/login, necesaria para que el enrutador no lance 404.
+api_login:
+    path: /api/login
+    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController
+    defaults:
+        route: '/'

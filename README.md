@@ -35,8 +35,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 1. **Clonar el Repositorio**
 
    ```bash
-   git clone https://github.com/torvictorvic/unow-symfony-backend
-   cd symfony-backend
+   git https://github.com/torvictorvic/unow-symfony-backend.git
+   cd unow-symfony-backend
 
 2. **Instalar Dependencias con Composer**
    ```bash

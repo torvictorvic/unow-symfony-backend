@@ -1,0 +1,9 @@
+# config/packages/test/doctrine.yaml
+doctrine:
+  dbal:
+    url: '%env(resolve:DATABASE_URL)%'
+    # Opcionalmente, podrías apuntar a una DB in-memory de SQLite
+    # url: 'sqlite:///:memory:'
+  orm:
+    auto_generate_proxy_classes: true
+    auto_mapping: true
